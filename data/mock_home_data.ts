@@ -1,65 +1,65 @@
-const PRODUCT_SELECTIONS = {
+export const PRODUCT_SELECTIONS = {
   scents: [
     {
-      img: "",
+      image: "Image12.png",
       title: "Floral",
       onclick: () => {},
     },
     {
-      img: "",
+      image: "Image6.png",
       title: "Fruit",
       onclick: () => {},
     },
     {
-      img: "",
+      image: "Image11.png",
       title: "Chemical",
       onclick: () => {},
     },
   ],
   materials: [
     {
-      img: "",
+      image: "Image14.png",
       title: "Wood",
       onclick: () => {},
     },
     {
-      img: "",
+      image: "Image6.png",
       title: "Fruit",
       onclick: () => {},
     },
     {
-      img: "",
+      image: "Image12.png",
       title: "Floral",
       onclick: () => {},
     },
   ],
   types: [
     {
-      img: "",
+      image: "Image10.png",
       title: "Cone",
       onclick: () => {},
     },
     {
-      img: "",
+      image: "Image13.png",
       title: "Insence",
       onclick: () => {},
     },
     {
-      img: "",
+      image: "Image4.png",
       title: "Long",
       onclick: () => {},
     },
   ],
 };
 
-const POPULAR_PRODUCTS = [
+export const POPULAR_PRODUCTS = [
   {
-    img: "",
+    image: "Image3.png",
     title: "FLoral Bliss",
     onclick: () => {},
   },
   {
-    img: "",
+    image: "Image1.png",
     title: "Citrus Zest",
     onclick: () => {},
   },

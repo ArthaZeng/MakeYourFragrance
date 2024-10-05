@@ -15,16 +15,15 @@ const styles = {
   },
 };
 
-const defaultProps = {
-  image: 'https://assets.api.uizard.io/api/cdn/stream/67e5e89a-93f9-4cd5-8f54-740626745230.png',
-}
-
-const DisplayItem = ({image}) => {
+const DisplayItem = ({image, title}) => {
   return (
+    <div>
     <div style={{
       ...styles.ImageContainer,
-      backgroundImage: `url(${props.image ?? defaultProps.image})`,
+      backgroundImage: `url(constants/images/${image})`,
     }} />
+    <div>{title}</div>
+    </div>
   );
 };
 
