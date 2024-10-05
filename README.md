@@ -48,3 +48,27 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+
+# DIY Fragrance App
+
+Welcome to the DIY Fragrance App repository! This project empowers users to create their own personalized fragrances by combining various essential oils and aromatic compounds. Whether you're a fragrance enthusiast or a curious beginner, this app guides you through the process of crafting unique scents that match your preferences.
+
+## Purpose
+
+The DIY Fragrance App is designed to:
+- **Simplify** the fragrance creation process.
+- **Educate** users on different scent profiles and combinations.
+- **Enable** customization by allowing users to save and share their creations.
+
+## Getting Started
+
+To get started with the app, clone this repository and follow the instructions below.
+
+### Clone the Repository
+
+### Start the Repository
+
+```bash
+yarn install
+yarn start
